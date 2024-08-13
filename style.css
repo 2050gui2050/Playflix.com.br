@@ -24,10 +24,22 @@ body {
 </section>
 .principal {
     background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
 }
+
 .container__botao {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
 }
     background-color: var(--botao-azul);
     border-radius: 5px;
